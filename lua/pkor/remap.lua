@@ -6,8 +6,8 @@ vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
-vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "N", "Nzzzv")
+-- vim.keymap.set("n", "n", "nzzzv")
+-- vim.keymap.set("n", "N", "Nzzzv")
 
 -- paste without overriding previous yank
 vim.keymap.set("x", "<leader>p", "\"_dP")
@@ -20,7 +20,7 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
-vim.keymap.set("v", "<leader>/", "\"sy<C-c>q/\"sp<CR>")
+vim.keymap.set("v", "<leader>/", "\"sy<C-c>q/\"sp<CR>N")
 
 -- window remaps
 -- vim.keymap.set("n", "<leader>h", "<C-w>h")
