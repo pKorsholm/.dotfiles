@@ -20,6 +20,8 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
+vim.keymap.set("v", "<leader>/", "\"sy<C-c>q/\"sp<CR>")
+
 -- window remaps
 -- vim.keymap.set("n", "<leader>h", "<C-w>h")
 -- vim.keymap.set("n", "<leader>l", "<C-w>l")
