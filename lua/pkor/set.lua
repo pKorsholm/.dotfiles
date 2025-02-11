@@ -6,8 +6,8 @@ vim.opt.nu = true
 vim.wo.relativenumber = true
 
 -- spaces instead of tabs (width 2)
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
 vim.opt.expandtab = true
 
 -- forget about wrapping
