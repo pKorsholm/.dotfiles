@@ -5,16 +5,12 @@ local equinox_launcher_path =
     vim.fn.glob(jdtls_path .. '/plugins/org.eclipse.equinox.launcher_*.jar')
 
 local config_path = vim.fn.glob(jdtls_path .. '/config_mac_arm')
-print(config_path)
 
 local lombok_path = jdtls_path .. '/lombok.jar'
-print(lombok_path)
 
 local workspace_path = vim.fn.stdpath 'cache'
     .. '/jdtls/'
     .. vim.fn.fnamemodify(vim.fn.getcwd(), ':t')
-
-print(workspace_path)
 
 local localCmd = {
     -- vim.fn.expand '$HOME/.local/share/nvim/mason/bin/jdtls',
